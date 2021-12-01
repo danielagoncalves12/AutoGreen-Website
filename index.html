@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>AutoGreen</title>
+	<link rel="icon"
+		href="https://cdn-icons.flaticon.com/png/512/2072/premium/2072130.png?token=exp=1636822819~hmac=0a2afce03f9143198fbf809334d6053f">
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<!-- font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Coda" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/3eb47536fb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+	<!-- HEADER -->
+	<header class="border-bottom rounded">
+
+		<div id="inicio" class="navbar py-0 bg-autogreen-dark">
+
+			<!-- Icones -->
+			<span class="text-left"> 
+				<i class="fab icones fa-facebook-f"></i>
+				<i class="fab icones fa-twitter"></i>
+				<i class="fab icones fa-instagram"></i>
+				<i class="fab icones fa-linkedin-in"></i>
+			</span>
+
+			<span class="text-right icones footer-font">
+				 Alexandre e Daniela <i class="far fa-copyright"></i> 
+			</span>
+		</div>
+
+		<!-- Titulo -->
+		<div class="col text-center container">
+			<br>
+			<p class="title">AutoGreen</p>
+			<p class="text">Robô de jardinagem</p>
+			<div class="container">
+				<hr style="padding: 0px; margin: 0px;">
+			</div>
+		</div>
+
+		<!-- Fim do HEADER -->
+	</header>
+
+
+	<!-- NAVBAR -->
+	<div class="col sticky-top nav-row">
+		<nav class="col py-2 navbar navbar-light navbar-expand-sm f1">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+				<span class="navbar-toggler-icon text-primary"></span>
+			</button>
+
+			<div style="height: 7px;" class="collapse navbar-collapse" id="navbarLinks">
+
+				<ul class="nav navbar-nav">
+
+					<li class="nav-item">
+						<a href="#inicio" class="nav-link nav-item"> Início </a>
+					</li>
+					<li class="nav-item">
+						<a href="#produto" class="nav-link nav-item"> Produto </a>
+					</li>
+					<li class="nav-item">
+						<a href="#acerca" class="nav-link nav-item"> Acerca </a>
+					</li>
+
+					<li class="dropdown">
+
+						<a class="dropdown-toggle nav-link nav-item" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false">
+							 Trabalhos 
+						</a>
+
+						<ul class="dropdown-menu">
+							<li><a class="text nav-item" href="#clubes-desportivos"> Clubes desportivos </a></li>
+							<li><a class="text nav-item" href="#instituicoes"> Instituições </a></li>
+							<li><a class="text nav-item" href="#jardins"> Jardins </a></li>
+						</ul>
+					</li>
+
+					<li class="nav-item">
+						<a href="#contactos" class="nav-link nav-item"> Contactos </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+		<!-- Fim da NAVBAR -->
+	</div>
+
+
+	<!-- Carrossel -->
+	<article>
+		<div class="height bg-autogreen-top">
+			<div class="col-md-8 mx-auto text-center">
+				<div id="imagem" class="carousel slide" data-ride='carousel'>
+
+					<!-- Indicadores -->
+					<ul class="carousel-indicators" style="opacity: 0.2;">
+						<li data-target="#imagem" data-slide-to='0' class="active"></li>
+						<li data-target="#imagem" data-slide-to='1'></li>
+						<li data-target="#imagem" data-slide-to='2'></li>
+					</ul>
+					<!-- Imagens -->
+					<div class="carousel-inner">
+
+						<div class="carousel-item pb-0 active">
+							<img style="opacity: 85%;" src="imgs/img1.jpg" class="d-block w-100">
+
+							<div style="top: 28%; left: 100%;" class="container text-image">
+								<p>Com o robô AutoGreen <br>automatize tarefas úteis <br>como
+									o corte do seu relvado.</p>
+								<button class="btn button btn-outline-light">Saber mais</button>
+							</div>
+
+
+						</div>
+
+						<div class="carousel-item pb-0">
+							<img src="imgs/img2.jpg" class="d-block w-100">
+
+							<div style="top: 83%; left: 100%;" class="container text-image">
+								<p>Responsável por cuidar e <br>hidratar o seu jardim <br>diariamente, com horas
+									programáveis.</p>
+								<button class="btn button btn-outline-light">Saber mais</button>
+							</div>
+						</div>
+
+						<div class="carousel-item pb-0">
+							<img style="opacity: 77%;" src="imgs/img3.jpg" class="d-block w-100 img-res">
+
+							<div style="top: 85%; left: 40%;" class="container text-image">
+								<p>Compre já, o melhor robô <br>de jardinagem AutoGreen.</p>
+								<button class="btn button btn-outline-light">Ligue já!</button>
+							</div>
+						</div>
+
+					</div>
+					<!-- Fim das imagens -->
+
+					<!-- Controlo -->
+					<a href="#imagem" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon text-info"></span>
+					</a>
+					<a href="#imagem" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon text-info"></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<!-- Produto -->
+	<article id="produto">
+
+		<br><br>
+		<div class="container text-center">
+			<p style="margin-top: 2%;" class="title">Produto</p>
+			<p class="text"><b>AutoGreen</b> - Robô de jardinagem</p>
+
+			<a href="#inicio" class="nav-link nav-icons-color">
+				──── <i class="fas fa-check-square"></i> ────
+			</a>
+
+
+			<div class="row">
+
+				<div class="col-md-6 ">
+					<hr>
+
+					<!-- Rega -->
+					<p class="text"><b>Rega</b></p>
+
+					<div class="row">
+
+						<div class="col-md-6 polygon left-icon-holder">
+							<i class="fas fa-tint fa-3x center"></i>
+						</div>
+
+						<div class="col-md-6 text">
+							<p class="p-align-left">
+								Com a regra do AutoGreen
+								é possível programar
+								horários diários para realizar a regra do seu jardim.
+							</p>
+						</div>
+					</div>
+
+					<br>
+					<hr>
+
+					<!-- Limpeza -->
+					<p class="text"><b>Limpeza</b></p>
+					<div class="row">
+
+						<div class="col-md-6 polygon left-icon-holder">
+							<i class="fab fa-canadian-maple-leaf fa-3x center"></i>
+						</div>
+
+						<div class="col-md-6 text">
+							<p class="p-align-left">
+								Com a função de aspirador, procede à limpeza de folhas e outros pequenas impurezas.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<hr>
+
+					<!-- Corte -->
+					<p class="text"><b>Corte</b></p>
+
+					<div class="row">
+
+						<div class="col-md-6 polygon left-icon-holder">
+							<i class="fas fa-fan fa-3x center"></i>
+						</div>
+
+						<div class="col-md-6 text">
+							<p class="p-align-left">
+								Uma outra funcionalidade do AutoGreen consiste no corte da relva, com medidas
+								configuráveis.
+							</p>
+						</div>
+					</div>
+
+					<br>
+					<hr>
+
+					<!-- Padrões -->
+					<p class="text"><b>Padrões</b></p>
+
+					<div class="row">
+
+						<div class="col-md-6 polygon left-icon-holder">
+							<i class="fas fa-pencil-ruler fa-3x center"></i>
+						</div>
+						<div class="col-md-6 text">
+							<p class="p-align-left">
+								Para além do corte básico da relva, também pode ser configurado um padrão/desenho
+								no relvado.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+	</article>
+
+	<hr>
+	<br>
+
+	<!-- ACERCA -->
+	<article id="acerca">
+
+		<div class="container text-center polygon-background">
+			<br><br><br>
+
+			<p class="title">Acerca</p>
+			<a style="color:white" href="#inicio" class="nav-link">
+				──── <i class="fas fa-power-off"></i> ────
+			</a>
+
+			<br>
+			<div class="row">
+
+				<div class="col-md-6">
+					<br>
+					<p class="text">
+						Startup iniciada por Alunos de Engenharia Informática e Multimédia do ISEL.
+						Inquérito respondido por voluntários, podemos observar os resultados em baixo:
+					</p><br>
+
+					<p class="text">Tem um horário apertado e dificilmente consegue tratar do seu quintal?</p>
+					<div class="progress progress-center">
+						<div class="progress-bar" role="progressbar" style="width: 78.8%; background-color: #54ab56;"
+							aria-valuenow="78.8" aria-valuemin="0" aria-valuemax="100">Sim 78,8%</div>
+					</div>
+
+					<br>
+
+					<p class="text">Não tem sistema de rega e necessita de regar o seu jardim ocasionalmente?</p>
+					<div class="progress progress-center">
+						<div class="progress-bar" role="progressbar" style="width: 54.5%; background-color: #c7ce42;"
+							aria-valuenow="54.5" aria-valuemin="0" aria-valuemax="100">Sim 54,5%</div>
+					</div>
+
+					<br>
+
+					<p class="text">Compraria um robô que fizesse as tarefas anteriormente referidas?</p>
+					<div class="progress progress-center">
+						<div class="progress-bar" role="progressbar" style="width: 68.2%; background-color: #54ab56"
+							aria-valuenow="68.2" aria-valuemin="0" aria-valuemax="100">Sim 68,2%</div>
+					</div>
+					<br>
+
+				</div>
+
+				<div class="col-md-6">
+					<br>
+					<p style="font-size: 25px" class="title"><b>ADJR</b> - AutoGreen</p>
+					<p class="text" data-mdb-toggle="animation">
+						Download do resumo detalhado.
+					</p>
+					<button type="button" class="btn btn-outline-dark btn-rounded sli button">Download</button>
+					<br><br>
+
+					<img class="img" src="imgs/Robot.png">
+					<br>
+				</div>
+			</div>
+		</div>
+	</article>
+	<!-- Fim do ACERCA-->
+	<br>
+
+
+	<!-- TRABALHOS -->
+	<article>
+
+		<div class="container text-center">
+			<br><br>
+			<p class="title">Trabalhos</p>
+			<a href="#inicio" class="nav-link nav-icons-color">
+				──── <i class="fas fa-briefcase"></i> ────
+			</a>
+			<p id="clubes-desportivos" class="text">No conteúdo em baixo apresentamos relvados/quintais <br>tratados
+				pelo robô AutoGreen, de alguns dos nossos clientes:</p>
+		</div>
+
+		<br>
+
+		<!-- Clubes desportivos -->
+		<section class="container text-center">
+
+			<p class="text">Clubes Desportivos</p>
+			<hr>
+
+			<div class="container text-center row">
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/cd1.jpg">
+						<div class="card-body">
+
+							<p class="text">New York Yankees Stadium</p>
+							<p class="card-text text">O Yankee Stadium é um estádio
+								localizado em Concourse, Bronx, na cidade de Nova York. É palco dos jogos de beisebol do
+								New York Yankees na Major League Baseball (MLB).</p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/cd2.jpg">
+						<div class="card-body">
+
+							<p class="text">North Bellingham Golf Club</p>
+							<p class="card-text text">Em Julho de 1995, Caitac USA,
+								Bellingham, WA, com orgulho desenvolveu uma instituição/campo de golf público de alta
+								qualidade para residentes e visitantes do Whatcom County.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/cd3.jpg">
+						<div class="card-body">
+
+							<p class="text">Sporting Clube de Portugal</p>
+							<p class="card-text text">O Estádio José Alvalade ou
+								Estádio do Sporting Clube de Portugal, é um estádio de futebol localizado em Lisboa,
+								Portugal, pertencente ao Sporting Clube de Portugal.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<br>
+
+		<!-- Instituicoes -->
+		<section id="instituicoes" class="container text-center">
+
+			<br>
+			<br>
+			<br>
+
+			<p class="text">Instituições</p>
+			<hr>
+
+			<div class="container text-center row">
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/i1.jpg">
+						<div class="card-body">
+
+							<p class="text">Instituto Superior de Engenharia de Lisboa</p>
+							<p class="card-text text">
+								O Instituto Superior de Engenharia de Lisboa (ISEL) é uma instituição de ensino superior
+								na área da engenharia e da tecnologia localizada em Lisboa (Portugal) com um passado de
+								160 anos com actividades nos domínios do ensino.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/i2.jpg">
+						<div class="card-body">
+							<p class="text">Massachusetts Institute of Technology</p>
+							<p class="card-text text">
+								Instituto de Tecnologia de Massachusetts (em inglês: Massachusetts Institute of
+								Technology - MIT) é uma universidade privada de pesquisa localizada em Cambridge,
+								Massachusetts, Estados Unidos.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/i3.jpg">
+						<div class="card-body">
+							<p class="text">Google</p>
+							<p class="card-text text">
+								Google é uma empresa multinacional de serviços online e software dos Estados Unidos. O
+								Google hospeda e desenvolve uma série de serviços e produtos baseados na internet.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<br>
+
+		<!-- Jardins -->
+		<section id="jardins" class="container text-center">
+
+			<br>
+			<br>
+			<br>
+
+			<p class="text">Jardins</p>
+			<hr>
+
+			<div class="container text-center row">
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/j1.jpg">
+						<div class="card-body">
+
+							<p class="text">Millam's Garden</p>
+							<p class="card-text text">
+								Jardim na California limpo e cortado pelo AutoGreen. Os donos dizem-se super satisfeitos
+								com o produto e recomendam!
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/j2.jpg">
+						<div class="card-body">
+							<p class="text">Familia Valente</p>
+							<p class="card-text text">
+								Casas da familia Valente no parque campismo Valmbom, no distrito de Setúbal. A familia
+								diz que o robô é indespensável na limpeza do espaço.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 container">
+
+					<div class="card">
+						<img class="card-img-top zoom" src="imgs/j3.jpg">
+						<div class="card-body">
+							<p class="text">Jardim do Meireles (colaborador ADJR)</p>
+							<p class="card-text text">
+								Este jardim é de um colaborador da ADJR, como pode ver também serve para espaços mais
+								pequenos como este.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</article>
+	<br>
+
+	<!-- CONTACTOS -->
+	<article id="contactos">
+
+		<div class="container text-center">
+			<br><br>
+			<p class="title">Contactos</p>
+			<a href="#inicio" class="nav-link nav-icons-color">
+				──── <i class="fas fa-envelope"></i> ────
+			</a>
+			<p class="text">Sugestões ou críticas? Necessita de ajuda ou de retirar alguma dúvida?<br> Contacte-nos via
+				e-mail em baixo!</p>
+		</div>
+		<br>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+
+					<div class="form-group">
+						<label for="name">Nome</label>
+						<input type="text" class="form-control" placeholder="Introduzir nome" required="required" />
+					</div>
+
+					<div class="form-group">
+						<label for="email">Endereço E-mail</label>
+						<div class="input-group">
+							<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+							<input type="email" class="form-control" placeholder="Introduzir e-mail"
+								required="required" />
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="subject">Assunto</label>
+						<select class="form-control">
+							<option value="na" selected="">Escolha um:</option>
+							<option value="servico">Serviço de cliente geral</option>
+							<option value="sugestoes">Sugestões</option>
+							<option value="produto">Suporte de produto/Garantia</option>
+							<option value="duvidas">Dúvidas</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="name">Mensagem</label>
+						<textarea class="form-control" rows="9" cols="25" placeholder="Mensagem"
+							required="required"></textarea>
+					</div>
+				</div>
+
+				<div class="col-md-12">
+					<button type="submit" class="btn btn-outline-success btn-rounded sli button">Enviar
+						mensagem</button>
+				</div>
+			</div>
+		</div>
+		<br><br>
+	</article>
+	<!-- Fim de CONTACTOS -->
+
+	<!-- FOOTER -->
+	<footer>
+		<div id="inicio" class="navbar py-0 bg-autogreen-dark">
+			<span class="text-left"> 
+				<i class="fab icones fa-facebook-f"></i>
+				<i class="fab icones fa-twitter"></i>
+				<i class="fab icones fa-instagram"></i>
+				<i class="fab icones fa-linkedin-in"></i>
+			</span>
+
+			<span class="text-right icones footer-font">
+				 PCM Copyright: A48577 A48579 <i class="far fa-copyright"></i> 
+			</span>
+		</div>
+	</footer>
+	<!-- Fim do Footer -->
+
+</body>
+
+</html>

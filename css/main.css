@@ -1,0 +1,134 @@
+.bg-autogreen-dark {
+  background-color: #5e8a60;
+  color: white;
+}
+
+.bg-autogreen-top {
+  background-color: #d1f8d5;
+}
+
+.icones {
+  margin-right: 8px;
+}
+
+.icones:hover {
+  background: white;
+  border: 0px solid white;
+  border-radius: 5px;
+  color: #013220;
+}
+
+.img {
+  display: block;
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-icon-holder {
+  position: relative;
+}
+
+.nav-item {
+  font-size: 15px;
+  font-family: "Abel";
+  color: #464545 !important;
+}
+
+.nav-item:hover {
+  color: white;
+  background-color: #9cbb9f;
+}
+
+.polygon {
+  background-color: #5e8a60;
+  clip-path: polygon(20% 0, 50% 0, 90% 100%, 20% 100%);
+}
+
+.polygon-background {
+  background-image: url("../imgs/img-background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 12%, 100% 100%, 0% 100%);
+}
+
+.polygon:hover {
+  background-color: black;
+}
+
+.text {
+  font-size: 15px;
+  font-family: "Coda";
+  color: #1f1e1e;
+}
+
+.text-image {
+  position: absolute;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "Abel";
+  text-align: center;
+  color: white;
+  transform: translate(-70%, -65%);
+}
+
+.title {
+  font-size: 32px;
+  font-family: "Coda";
+  color: rgb(36, 35, 35);
+  line-height: 14px;
+}
+
+ul {
+  margin: auto;
+  position: relative;
+}
+
+.left-icon-holder .center {
+  position: absolute;
+  line-height: 24px;
+  top: 50%;
+  margin-top: -12px; /* Half of line height to keep left middle postion of container */
+  left: 35%;
+  color: white;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.button:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.progress-center {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-row {
+  background-color: white;
+  border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+.card-text {
+  font-size: 13px;
+  color: rgb(59, 59, 59);
+}
+
+.footer-font {
+  font-family: Abel;
+}
+
+.nav-icons-color {
+  color: #5e8a60 !important;
+}
+
+.p-align-left {
+  text-align: left;
+}
